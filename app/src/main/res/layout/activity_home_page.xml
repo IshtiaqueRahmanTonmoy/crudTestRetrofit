@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#f4a9e9"
+    android:weightSum="8"
+    tools:context="com.example.my_pc.retrofittest.activity.HomePage">
+
+
+    <Button
+        android:id="@+id/btnViewAll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10sp"
+        android:text="View All"
+        android:textColor="#000"
+        android:textAllCaps="false"
+        android:textStyle="bold|italic"
+        android:textSize="25sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="20sp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_bg" />
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="#000"
+        android:textAllCaps="false"
+        android:text="Insert"
+        android:textStyle="bold|italic"
+        android:textSize="25sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="20sp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_bg" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="#000"
+        android:textAllCaps="false"
+        android:text="Update"
+        android:textStyle="bold|italic"
+        android:textSize="25sp"
+        android:layout_marginBottom="20sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_bg" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10sp"
+        android:textColor="#000"
+        android:text="Delete"
+        android:textAllCaps="false"
+        android:textStyle="bold|italic"
+        android:textSize="25sp"
+        android:layout_marginRight="10sp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_bg" />
+
+
+</LinearLayout>
